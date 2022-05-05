@@ -3,8 +3,21 @@ body {
   box-sizing: border-box;
 }
 
-.boxes{
- 
+.clear-fix {
+  clear: both;
+}
+
+.boxes {}
+
+.row-box {
+  height: 220px;
+  width: 19%;
+  margin-right: 1%;
+  float: left;
+}
+
+.row-box:last-child {
+  margin-right: 0;
 }
 
 .box-blue-1 {
@@ -33,43 +46,22 @@ body {
 
 .box-blue-4 {
   background-color: rgba(17, 244, 180, 0.97);
-  height: 220px;
-  width: 20%;
-  padding: 5px;
-  float: left;
 }
 
 .box-blue-5 {
   background-color: rgb(12, 12, 12);
-  height: 220px;
-  width: 20%;
-  padding: 5px;
-  float: left;
 }
 
 .box-blue-6 {
   background-color: rgb(255, 0, 217);
-  height: 220px;
-  width: 20%;
-  padding: 5px;
-  float: left;
-
 }
 
 .box-blue-7 {
   background-color: rgb(14, 202, 249);
-  height: 220px;
-  width: 17%;
-  padding: 5px;
-  float: left;
 }
 
 .box-blue-8 {
   background-color: rgb(201, 249, 7);
-  height: 220px;
-  width: 17%;
-  padding: 5px;
-  float: left;
 }
 
 .box-blue-9 {
